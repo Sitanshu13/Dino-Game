@@ -248,23 +248,112 @@
 }
 
 @keyframes jump {
-    0%{top: 150px;}
-    30%{top: 100px;}
-    70%{top: 100px;}
-    100%{top: 150px;}
+    0%{top: 140px;}
+    30%{top: 70px;}
+    70%{top: 70px;}
+    100%{top: 140px;}
 }
 
 #block {
     width: 20px;
     height: 20px;
-    background-color: #353b48;
+    background-color: #dcdde1;
     position: relative;
-    top: 50px;
+    top: 60px;
     left: 880px;
     animation: block 1s infinite linear;
 }
 
- @keyframes block {
-    0%{left:880px;}
+#lvl1 {
+    width: 5px;
+    height: 4px;
+    background-color: #353b48;
+    position: relative;
+    top: -40px;
+    right: 50px;
+}
+
+#lvl2 {
+    width: 10px;
+    height: 50px;
+    background-color: #353b48;
+    position: relative;
+    top: -40px;
+    right: 52px;
+}
+
+#lvl3 {
+    width: 17px;
+    height: 4px;
+    background-color: #353b48;
+    position: relative;
+    top: -60px;
+    right: 44px;
+}
+
+#lvl4 {
+    width: 15px;
+    height: 4px;
+    background-color: #353b48;
+    position: relative;
+    top: -60px;
+    right: 44px;
+}
+
+#lvl5 {
+    width: 10px;
+    height: 20px;
+    background-color: #353b48;
+    position: relative;
+    top: -88px;
+    right: 35px;
+}
+
+#lvl6 {
+    width: 5px;
+    height: 4px;
+    background-color: #353b48;
+    position: relative;
+    top: -111px;
+    right: 33px;
+}
+
+#lvl7 {
+    width: 13px;
+    height: 4px;
+    background-color: #353b48;
+    position: relative;
+    top: -89px;
+    right: 65px;
+}
+
+#lvl8 {
+    width: 10px;
+    height: 3px;
+    background-color: #353b48;
+    position: relative;
+    top: -89px;
+    right: 62px;
+}
+
+#lvl9 {
+    width: 8px;
+    height: 18px;
+    background-color: #353b48;
+    position: relative;
+    top: -113px;
+    right: 68px;
+}
+
+#lvl10 {
+    width: 5px;
+    height: 4px;
+    background-color: #353b48;
+    position: relative;
+    top: -135px;
+    right: 67px;
+}
+@keyframes block {
+    0%{left:1080px;}
     100%{left: -40px;}
 }
